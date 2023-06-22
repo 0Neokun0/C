@@ -7,5 +7,6 @@ int main()
     printf("%d\n", myAge); // output my Age
     printf("%d\n", &myAge); // outputs the memory address of my Age
     printf("%d\n", pointer); // outputs memory addrss of my age with the pointer pointer
+    printf("%d\n", *pointer); // outputs value in the memory address
 
 }
